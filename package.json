@@ -1,0 +1,22 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avinashluhana/Express.js.git"
+  },
+  "author": "Avinash Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avinashluhana/Express.js/issues"
+  },
+  "homepage": "https://github.com/Avinashluhana/Express.js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
