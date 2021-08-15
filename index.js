@@ -24,7 +24,14 @@ app.get("/", (req,res) => {
 })
 
 app.get("/about", (req, res) =>{
-    res.send("This page is developed by Avinash Kumar");
+    res.render("#about");
+})
+
+app.get("*", (req, res) =>{
+    res.render("404",{
+        errorMessage: "Oops Page not Found"
+    });
+
 })
 
 app.listen(5000, () => {

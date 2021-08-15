@@ -57,6 +57,8 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: black;
+  color: white !important;
 }
 h1,h2,p{
   margin: 0;
@@ -118,6 +120,8 @@ img{
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
+  background-color: black;
+  color: white !important;
 }
 
 /*===== NAV =====*/
@@ -127,6 +131,8 @@ img{
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+  background-color: black;
+  color: white !important;
 }
 @media screen and (max-width: 768px){
   .nav__menu{
@@ -142,10 +148,11 @@ img{
 }
 .nav__item{
   margin-bottom: var(--mb-4);
+  color: white;
 }
 .nav__link{
   position: relative;
-  color: #fff;
+  color: white !important;
 }
 .nav__link:hover{
   position: relative;
